@@ -1,0 +1,16 @@
+import random
+
+class Die:
+    
+    
+    def __init__(self):
+
+        self.value = 0
+        self.points = 0
+
+    def  new_roll(self):
+        self.value = random.randint(1,6)
+        self.points = 50 if self.value == 5 else 100 if self.value == 1 else 0
+        
+
+        

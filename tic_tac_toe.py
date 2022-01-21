@@ -4,6 +4,10 @@
 ##Teacher: Brother Hayes
 
 
+from re import T
+from tkinter import N
+
+
 def main():
     ##This is the main menu, with a time function for effect
     import time
